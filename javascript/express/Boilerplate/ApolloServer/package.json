@@ -1,0 +1,19 @@
+{
+  "name": "disnode-website",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server-express": "^1.1.0",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.4",
+    "disnode-logger": "0.0.1",
+    "express": "^4.15.4",
+    "express-session": "^1.15.2",
+    "graphql": "^0.10.5",
+    "optics-agent": "^1.1.6"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

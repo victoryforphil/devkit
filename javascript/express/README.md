@@ -1,4 +1,6 @@
 #Express
 
-`templateServer-1.js` - Basic Template of Express Server w/ Body Parser, Disnode Logger
-`templateServer-1.js` - Basic Template of Express Server w/ Body Parser, Disnode Logger, Socket-IO
+##Snippits:
+ - `apollobase.js` - Basic code for starting Apollo/GraphQL Server    
+ - `basicroute.js` - Basic GET route for an express Server    
+ - `cors.js`       - Basic CORS setup for Express Server    
