@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Alex Carter's DevitKit of Awesomeness
 
-You can use the [editor on GitHub](https://github.com/victoryforphil/devkit/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## About
+This devkit contains boilerplate (not found in other, larger boilerplate projects) and "usefull" code snippits that I have either
+found or developed over the years. Hopefully to avoid having to refind a stackoverflow article or make stealing code from
+older projects less janky.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Definitions:
+**Boilerplate:** *Template files (usally int he form of a project folder) that
+act as a beggining to a project. In concept these are fully working projects.*
 
-### Markdown
+**Snippits:** *Code snippits that are just meant to be copied and pasted. Often require a working enviorment or other code.*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Whats in it?
+### Languages
+An assortment of languages will be includes, so far we have
+- Javascript
 
-```markdown
-Syntax highlighted code block
+### Type of Applications
+- Discord Bots
+- Web Apps
 
-# Header 1
-## Header 2
-### Header 3
+### Notible Librarys
+- Express
+- Apollo
+- `disnode-lite`
+- `disnode`
+- `disode-logger`
+- GraphQL
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/victoryforphil/devkit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Orgnaization
+Each section is divided into a tree that follows this pattern:
+- Lanuage (js for example)
+    - Type (Bots, Server, Math)
+        - Snippits/Boilderplate
+            - Content.js

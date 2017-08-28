@@ -53,17 +53,15 @@ var schema = buildSchema(`
   }
 `);
 
-// The root provides a resolver function for each API endpoint
-var ClubHandler = require("./server/handlers/ClubHandler")
 var root = {
   allSomethings: (args, context) => {
     return {}
   },
   something: (args, context) => {
-    return ClubHandler.GetClubs()
+    return {}
   },
   newSomething: ({id, name, desc}, context) =>{
-    return ClubHandler.NewClub(context.user,{id,name, desc})
+    return {}
   },
 };
 
